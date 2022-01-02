@@ -11,6 +11,10 @@
 		5B870AEA2781552F00926741 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B870AE92781552F00926741 /* ContentView.swift */; };
 		5B870AEC2781552F00926741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B870AEB2781552F00926741 /* Assets.xcassets */; };
 		5B870AEF2781552F00926741 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B870AEE2781552F00926741 /* Preview Assets.xcassets */; };
+		5B870AF627824C1300926741 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B870AF527824C1300926741 /* TitleView.swift */; };
+		5B870AF82782536000926741 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B870AF72782536000926741 /* ProgressView.swift */; };
+		5B870AFA2782539E00926741 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B870AF92782539E00926741 /* WorkoutView.swift */; };
+		5B870AFC2782552700926741 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B870AFB2782552700926741 /* PlanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5B870AE92781552F00926741 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B870AEB2781552F00926741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B870AEE2781552F00926741 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B870AF527824C1300926741 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		5B870AF72782536000926741 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		5B870AF92782539E00926741 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		5B870AFB2782552700926741 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				5B870AE72781552F00926741 /* Fitness_TrackerApp.swift */,
+				5B870AF527824C1300926741 /* TitleView.swift */,
+				5B870AF72782536000926741 /* ProgressView.swift */,
 				5B870AE92781552F00926741 /* ContentView.swift */,
+				5B870AFB2782552700926741 /* PlanView.swift */,
+				5B870AF92782539E00926741 /* WorkoutView.swift */,
 				5B870AEB2781552F00926741 /* Assets.xcassets */,
 				5B870AED2781552F00926741 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B870AEA2781552F00926741 /* ContentView.swift in Sources */,
+				5B870AF82782536000926741 /* ProgressView.swift in Sources */,
 				5B870AE82781552F00926741 /* Fitness_TrackerApp.swift in Sources */,
+				5B870AFC2782552700926741 /* PlanView.swift in Sources */,
+				5B870AF627824C1300926741 /* TitleView.swift in Sources */,
+				5B870AFA2782539E00926741 /* WorkoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
